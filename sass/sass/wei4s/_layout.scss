@@ -1,0 +1,79 @@
+body {}
+
+
+header {
+
+	$height: 100px;
+	$red: #db5049;
+	$blue: #2e3649;
+
+	position: relative;
+	width: 100%;
+	background: $red;
+
+	> .background {
+		display: block;
+		position: absolute;
+		width: 50%;
+		height: $height;
+		top: 0;
+		left: 0;
+		background: $blue;
+		z-index: 1;
+	}
+
+	> .navbar {
+		position: relative;
+		border: none;
+		margin-bottom: 0;
+		z-index: 2;
+
+		> .container {
+			height: $height;
+			background: $red;
+		}
+	}
+
+	.navbar-brand {
+		display: block;
+		width: 212px;
+		height: $height;
+		background: url(../img/logo.png) no-repeat;
+		text-indent: -9999;
+		font-size: 0;
+		line-height: 0;
+	}
+
+	.navbar-solgan {
+		display: block;
+		float: left;
+		line-height: 21px;
+		height: 20px;
+		color: lighten($red, 25%);
+		margin-left: 10px;
+		margin-top: 40px;
+	}
+
+	.navbar-nav {
+
+		margin-top: 38px;
+
+		> li {
+
+			margin-left: 40px;
+
+			> a {
+				color: #fff;
+				padding: 0;
+				padding: 1px 3px;
+				background: transparent;
+			}
+
+			> a:hover,
+			&.active > a {
+				border-bottom: solid 2px #fff;
+				background: transparent;
+			}
+		}
+	}
+}
