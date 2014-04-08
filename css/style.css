@@ -7904,3 +7904,40 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   border-bottom: solid 2px #fff;
   background: transparent;
 }
+
+/* line 4, ../sass/sass/wei4s/_carousel.scss */
+.carousel-indicators li {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  width: 50px;
+  height: 4px;
+  background: #fff;
+  border: none;
+  -webkit-transition-delay: 800ms;
+  -moz-transition-delay: 800ms;
+  -o-transition-delay: 800ms;
+  transition-delay: 800ms;
+  -webkit-transition-duration: 800ms;
+  -moz-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+/* line 13, ../sass/sass/wei4s/_carousel.scss */
+.carousel-indicators .active {
+  width: 50px;
+  height: 4px;
+  margin: 1px;
+  background: #db5049;
+  -webkit-transition: 800ms background ease-in;
+  -moz-transition: 800ms background ease-in;
+  -o-transition: 800ms background ease-in;
+  transition: 800ms background ease-in;
+}
+
+/* line 22, ../sass/sass/wei4s/_carousel.scss */
+.carousel-caption {
+  display: none;
+}

@@ -1,0 +1,24 @@
+@import "compass/css3";
+
+.carousel-indicators {
+    li {
+        @include border-radius(0);
+        width: 50px;
+        height: 4px;
+        background: #fff;
+        border: none;
+        @include transition-delay(800ms);
+        @include transition-duration(800ms);
+    }
+    .active {
+        width: 50px;
+        height: 4px;
+        margin: 1px;
+        background: #db5049;
+        @include transition(800ms background ease-in);
+    }
+}
+
+.carousel-caption {
+    display: none;
+}
