@@ -124,7 +124,6 @@
 			width: 100%;
 		}
 		> .img-caption {
-			// display: none;
 			position: absolute;
 			width: 125px;
 			height: 125px;
@@ -138,15 +137,20 @@
 			text-align: center;
 			font-size: 24px;
 			cursor: default;
-			@include opacity(0);
-			@include transition-duration(300ms);
 		}
+	}
+}
 
+.home-brand {
+	> .inner {
+		> .img-caption {
+			@include transform(scale(0));
+			@include transition-duration(800ms);
+		}
 		&:hover {
 			> .img-caption {
-				// display: block;
-				@include opacity(1);
-				@include transition(300ms opacity linear);
+				@include transform(scale(1));
+				@include transition(600ms scale linear);
 			}
 		}
 	}
@@ -173,6 +177,21 @@
 			height: $height;
 			@include border-radius(0);
 			line-height: $height;
+		}
+	}
+}
+
+.home-qdcode {
+	> .inner {
+		> .img-caption {
+			@include opacity(0);
+			@include transition-duration(300ms);
+		}
+		&:hover {
+			> .img-caption {
+				@include opacity(1);
+				@include transition(300ms opacity linear);
+			}
 		}
 	}
 }

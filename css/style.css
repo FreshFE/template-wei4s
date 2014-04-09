@@ -8107,37 +8107,46 @@ footer .copyright {
   text-align: center;
   font-size: 24px;
   cursor: default;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -webkit-transition-duration: 300ms;
-  -moz-transition-duration: 300ms;
-  -o-transition-duration: 300ms;
-  transition-duration: 300ms;
-}
-/* line 146, ../sass/sass/wei4s/_home.scss */
-.home-brand > .inner:hover > .img-caption,
-.home-qdcode > .inner:hover > .img-caption {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-  -webkit-transition: 300ms opacity linear;
-  -moz-transition: 300ms opacity linear;
-  -o-transition: 300ms opacity linear;
-  transition: 300ms opacity linear;
 }
 
-/* line 161, ../sass/sass/wei4s/_home.scss */
+/* line 146, ../sass/sass/wei4s/_home.scss */
+.home-brand > .inner > .img-caption {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-duration: 800ms;
+  -moz-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+/* line 151, ../sass/sass/wei4s/_home.scss */
+.home-brand > .inner:hover > .img-caption {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 600ms scale linear;
+  -moz-transition: 600ms scale linear;
+  -o-transition: 600ms scale linear;
+  transition: 600ms scale linear;
+}
+
+/* line 165, ../sass/sass/wei4s/_home.scss */
 .home-qdcode > .inner {
   width: 160px;
   height: 160px;
   border: solid 1px #e5e5e5;
 }
-/* line 166, ../sass/sass/wei4s/_home.scss */
+/* line 170, ../sass/sass/wei4s/_home.scss */
 .home-qdcode > .inner > img {
   display: block;
   width: 120px;
   margin: 20px auto;
 }
-/* line 171, ../sass/sass/wei4s/_home.scss */
+/* line 175, ../sass/sass/wei4s/_home.scss */
 .home-qdcode > .inner > .img-caption {
   width: 160px;
   height: 160px;
@@ -8149,12 +8158,31 @@ footer .copyright {
   line-height: 160px;
 }
 
-/* line 180, ../sass/sass/wei4s/_home.scss */
+/* line 186, ../sass/sass/wei4s/_home.scss */
+.home-qdcode > .inner > .img-caption {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+/* line 191, ../sass/sass/wei4s/_home.scss */
+.home-qdcode > .inner:hover > .img-caption {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-transition: 300ms opacity linear;
+  -moz-transition: 300ms opacity linear;
+  -o-transition: 300ms opacity linear;
+  transition: 300ms opacity linear;
+}
+
+/* line 199, ../sass/sass/wei4s/_home.scss */
 .home-contact {
   padding-bottom: 0;
 }
 
-/* line 184, ../sass/sass/wei4s/_home.scss */
+/* line 203, ../sass/sass/wei4s/_home.scss */
 .home-map {
   height: 330px;
   background: #eee;
