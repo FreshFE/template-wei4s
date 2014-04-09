@@ -7919,6 +7919,32 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   transition: 1s border-bottom-color;
 }
 
+/* line 88, ../sass/sass/wei4s/_layout.scss */
+footer {
+  padding-top: 60px;
+}
+/* line 92, ../sass/sass/wei4s/_layout.scss */
+footer > .container {
+  max-width: 900px;
+}
+/* line 96, ../sass/sass/wei4s/_layout.scss */
+footer .footer-text {
+  font-size: 16px;
+  line-height: 100px;
+}
+/* line 100, ../sass/sass/wei4s/_layout.scss */
+footer .footer-text strong {
+  color: #db5049;
+  font-size: 1.5em;
+}
+/* line 106, ../sass/sass/wei4s/_layout.scss */
+footer .copyright {
+  padding: 30px;
+  color: #9e9d9d;
+  text-align: center;
+  font-size: 10px;
+}
+
 /* line 3, ../sass/sass/wei4s/_carousel.scss */
 .carousel {
   margin-bottom: 40px;
@@ -7977,74 +8003,93 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   font-size: 18px;
 }
 
-/* line 47, ../sass/sass/wei4s/_home.scss */
+/* line 46, ../sass/sass/wei4s/_home.scss */
+.home-block-inverse {
+  background: #2e3649;
+}
+/* line 49, ../sass/sass/wei4s/_home.scss */
+.home-block-inverse > hr {
+  border-color: #363f55;
+}
+
+/* line 55, ../sass/sass/wei4s/_home.scss */
 .home-whatwedo > h1 {
   width: 333px;
   height: 104px;
   background: url(../img/whatwedo.png) no-repeat center;
 }
 
-/* line 54, ../sass/sass/wei4s/_home.scss */
-.home-cases {
-  margin-bottom: 40px;
-}
-/* line 58, ../sass/sass/wei4s/_home.scss */
-.home-cases > img {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
 /* line 63, ../sass/sass/wei4s/_home.scss */
-.home-cases > .img-caption {
-  width: 120px;
-  margin: 0 auto;
-  text-align: center;
-  border-bottom: solid 2px #db5049;
-}
-/* line 68, ../sass/sass/wei4s/_home.scss */
-.home-cases > .img-caption > a {
-  display: block;
-  color: #000;
-  text-decoration: none;
-  cursor: default;
-}
-/* line 74, ../sass/sass/wei4s/_home.scss */
-.home-cases > .img-caption > a.desc {
-  color: #dfdfdf;
-}
-
-/* line 80, ../sass/sass/wei4s/_home.scss */
-.home-partner {
-  background: #2e3649;
-}
-/* line 84, ../sass/sass/wei4s/_home.scss */
-.home-partner > hr {
-  border-color: #363f55;
-}
-/* line 88, ../sass/sass/wei4s/_home.scss */
 .home-partner > h1 {
   width: 315px;
   height: 105px;
   background: url(../img/partner.png) no-repeat center;
 }
 
-/* line 95, ../sass/sass/wei4s/_home.scss */
-.home-brand {
+/* line 71, ../sass/sass/wei4s/_home.scss */
+.home-case > h1 {
+  width: 287px;
+  height: 104px;
+  background: url(../img/case.png) no-repeat center;
+}
+
+/* line 79, ../sass/sass/wei4s/_home.scss */
+.home-contact > h1 {
+  width: 290px;
+  height: 105px;
+  background: url(../img/contact.png) no-repeat center;
+}
+
+/* line 86, ../sass/sass/wei4s/_home.scss */
+.home-cases {
   margin-bottom: 40px;
 }
-/* line 99, ../sass/sass/wei4s/_home.scss */
-.home-brand > .inner {
+/* line 90, ../sass/sass/wei4s/_home.scss */
+.home-cases > img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/* line 95, ../sass/sass/wei4s/_home.scss */
+.home-cases > .img-caption {
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px #db5049;
+}
+/* line 100, ../sass/sass/wei4s/_home.scss */
+.home-cases > .img-caption > a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  cursor: default;
+}
+/* line 106, ../sass/sass/wei4s/_home.scss */
+.home-cases > .img-caption > a.desc {
+  color: #dfdfdf;
+}
+
+/* line 113, ../sass/sass/wei4s/_home.scss */
+.home-brand,
+.home-qdcode {
+  margin-bottom: 40px;
+}
+/* line 117, ../sass/sass/wei4s/_home.scss */
+.home-brand > .inner,
+.home-qdcode > .inner {
   position: relative;
   width: 125px;
   height: 125px;
   margin: 0 auto;
 }
-/* line 105, ../sass/sass/wei4s/_home.scss */
-.home-brand > .inner > img {
+/* line 123, ../sass/sass/wei4s/_home.scss */
+.home-brand > .inner > img,
+.home-qdcode > .inner > img {
   width: 100%;
 }
-/* line 108, ../sass/sass/wei4s/_home.scss */
-.home-brand > .inner > .img-caption {
+/* line 126, ../sass/sass/wei4s/_home.scss */
+.home-brand > .inner > .img-caption,
+.home-qdcode > .inner > .img-caption {
   position: absolute;
   width: 125px;
   height: 125px;
@@ -8064,17 +8109,55 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   cursor: default;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
-  -webkit-transition-duration: 700ms;
-  -moz-transition-duration: 700ms;
-  -o-transition-duration: 700ms;
-  transition-duration: 700ms;
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  transition-duration: 300ms;
 }
-/* line 128, ../sass/sass/wei4s/_home.scss */
-.home-brand > .inner:hover > .img-caption {
+/* line 146, ../sass/sass/wei4s/_home.scss */
+.home-brand > .inner:hover > .img-caption,
+.home-qdcode > .inner:hover > .img-caption {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-  -webkit-transition: 700ms opacity linear;
-  -moz-transition: 700ms opacity linear;
-  -o-transition: 700ms opacity linear;
-  transition: 700ms opacity linear;
+  -webkit-transition: 300ms opacity linear;
+  -moz-transition: 300ms opacity linear;
+  -o-transition: 300ms opacity linear;
+  transition: 300ms opacity linear;
+}
+
+/* line 161, ../sass/sass/wei4s/_home.scss */
+.home-qdcode > .inner {
+  width: 160px;
+  height: 160px;
+  border: solid 1px #e5e5e5;
+}
+/* line 166, ../sass/sass/wei4s/_home.scss */
+.home-qdcode > .inner > img {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+}
+/* line 171, ../sass/sass/wei4s/_home.scss */
+.home-qdcode > .inner > .img-caption {
+  width: 160px;
+  height: 160px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  line-height: 160px;
+}
+
+/* line 180, ../sass/sass/wei4s/_home.scss */
+.home-contact {
+  padding-bottom: 0;
+}
+
+/* line 184, ../sass/sass/wei4s/_home.scss */
+.home-map {
+  height: 330px;
+  background: #eee;
+  margin-top: 40px;
+  border-color: #363f55;
 }

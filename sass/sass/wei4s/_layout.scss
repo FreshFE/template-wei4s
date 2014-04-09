@@ -84,3 +84,29 @@ header {
 		}
 	}
 }
+
+footer {
+
+	padding-top: 60px;
+
+	> .container {
+		max-width: 900px;
+	}
+
+	.footer-text {
+		font-size: 16px;
+		line-height: 100px;
+
+		strong {
+			color: #db5049;
+			font-size: 1.5em;
+		}
+	}
+
+	.copyright {
+		padding: 30px;
+		color: #9e9d9d;
+		text-align: center;
+		font-size: 10px;
+	}
+}
