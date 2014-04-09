@@ -8002,8 +8002,9 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   display: block;
   color: #000;
   text-decoration: none;
+  cursor: default;
 }
-/* line 70, ../sass/sass/wei4s/_home.scss */
+/* line 71, ../sass/sass/wei4s/_home.scss */
 .home-cases > .img-caption > a.desc {
   color: #dfdfdf;
 }
