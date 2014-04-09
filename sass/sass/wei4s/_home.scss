@@ -1,6 +1,9 @@
 @import "../bootstrap-sass/bootstrap/variables";
+@import "compass/css3";
 
 .home-block {
+
+	padding: 40px 0;
 
 	> h1 {
 		text-align: center;
@@ -70,6 +73,63 @@
 		}
 		> a.desc {
 			color: #dfdfdf;
+		}
+	}
+}
+
+.home-partner {
+
+	background: #2e3649;
+
+	> hr {
+		border-color: #363f55;
+	}
+
+	> h1 {
+		width: 315px;
+		height: 105px;
+		background: url(../img/partner.png) no-repeat center;
+	}
+}
+
+.home-brand {
+
+	margin-bottom: 40px;
+
+	> .inner {
+		position: relative;
+		width: 125px;
+		height: 125px;
+		margin: 0 auto;
+
+		> img {
+			width: 100%;
+		}
+		> .img-caption {
+			// display: none;
+			position: absolute;
+			width: 125px;
+			height: 125px;
+			top: 0;
+			left: 0;
+			background: #db5049;
+			color: #fff;
+			z-index: 1;
+			@include border-radius(300px);
+			line-height: 125px;
+			text-align: center;
+			font-size: 24px;
+			cursor: default;
+			@include opacity(0);
+			@include transition-duration(700ms);
+		}
+
+		&:hover {
+			> .img-caption {
+				// display: block;
+				@include opacity(1);
+				@include transition(700ms opacity linear);
+			}
 		}
 	}
 }
