@@ -7835,13 +7835,18 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, ../sass/sass/wei4s/_layout.scss */
+/* line 3, ../sass/sass/wei4s/_layout.scss */
+body {
+  min-height: 2000px;
+}
+
+/* line 8, ../sass/sass/wei4s/_layout.scss */
 header {
   position: relative;
   width: 100%;
   background: #db5049;
 }
-/* line 16, ../sass/sass/wei4s/_layout.scss */
+/* line 18, ../sass/sass/wei4s/_layout.scss */
 header > .background {
   display: block;
   position: absolute;
@@ -7852,19 +7857,19 @@ header > .background {
   background: #2e3649;
   z-index: 1;
 }
-/* line 27, ../sass/sass/wei4s/_layout.scss */
+/* line 29, ../sass/sass/wei4s/_layout.scss */
 header > .navbar {
   position: relative;
   border: none;
   margin-bottom: 0;
   z-index: 2;
 }
-/* line 33, ../sass/sass/wei4s/_layout.scss */
+/* line 35, ../sass/sass/wei4s/_layout.scss */
 header > .navbar > .container {
   height: 100px;
   background: #db5049;
 }
-/* line 39, ../sass/sass/wei4s/_layout.scss */
+/* line 41, ../sass/sass/wei4s/_layout.scss */
 header .navbar-brand {
   display: block;
   width: 212px;
@@ -7874,7 +7879,7 @@ header .navbar-brand {
   font-size: 0;
   line-height: 0;
 }
-/* line 49, ../sass/sass/wei4s/_layout.scss */
+/* line 51, ../sass/sass/wei4s/_layout.scss */
 header .navbar-solgan {
   display: block;
   float: left;
@@ -7884,15 +7889,15 @@ header .navbar-solgan {
   margin-left: 10px;
   margin-top: 40px;
 }
-/* line 59, ../sass/sass/wei4s/_layout.scss */
+/* line 61, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav {
   margin-top: 38px;
 }
-/* line 63, ../sass/sass/wei4s/_layout.scss */
+/* line 65, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li {
   margin-left: 40px;
 }
-/* line 67, ../sass/sass/wei4s/_layout.scss */
+/* line 69, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li > a {
   color: #fff;
   padding: 0;
@@ -7904,7 +7909,7 @@ header .navbar-nav > li > a {
   -o-transition-duration: 700ms;
   transition-duration: 700ms;
 }
-/* line 77, ../sass/sass/wei4s/_layout.scss */
+/* line 79, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   border-bottom-color: #fff;
   background: transparent;
@@ -7914,7 +7919,12 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   transition: 1s border-bottom-color;
 }
 
-/* line 4, ../sass/sass/wei4s/_carousel.scss */
+/* line 3, ../sass/sass/wei4s/_carousel.scss */
+.carousel {
+  margin-bottom: 40px;
+}
+
+/* line 8, ../sass/sass/wei4s/_carousel.scss */
 .carousel-indicators li {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -7930,7 +7940,7 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   -o-transition-duration: 700ms;
   transition-duration: 700ms;
 }
-/* line 13, ../sass/sass/wei4s/_carousel.scss */
+/* line 16, ../sass/sass/wei4s/_carousel.scss */
 .carousel-indicators .active {
   width: 50px;
   height: 4px;
@@ -7942,7 +7952,58 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   transition: 700ms background linear;
 }
 
-/* line 22, ../sass/sass/wei4s/_carousel.scss */
+/* line 25, ../sass/sass/wei4s/_carousel.scss */
 .carousel-caption {
   display: none;
+}
+
+/* line 5, ../sass/sass/wei4s/_home.scss */
+.home-block > h1 {
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999;
+  margin: 0 auto;
+}
+/* line 13, ../sass/sass/wei4s/_home.scss */
+.home-block > .desc {
+  text-align: center;
+  margin: 40px;
+  color: #6f6f6f;
+  font-size: 18px;
+}
+
+/* line 44, ../sass/sass/wei4s/_home.scss */
+.home-whatwedo > h1 {
+  width: 333px;
+  height: 104px;
+  background: url(../img/whatwedo.png) no-repeat center;
+}
+
+/* line 51, ../sass/sass/wei4s/_home.scss */
+.home-cases {
+  margin-bottom: 40px;
+}
+/* line 55, ../sass/sass/wei4s/_home.scss */
+.home-cases > img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/* line 60, ../sass/sass/wei4s/_home.scss */
+.home-cases > .img-caption {
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px #db5049;
+}
+/* line 65, ../sass/sass/wei4s/_home.scss */
+.home-cases > .img-caption > a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+/* line 70, ../sass/sass/wei4s/_home.scss */
+.home-cases > .img-caption > a.desc {
+  color: #dfdfdf;
 }

@@ -1,0 +1,74 @@
+@import "../bootstrap-sass/bootstrap/variables";
+
+.home-block {
+
+	> h1 {
+		text-align: center;
+		font-size: 0;
+		line-height: 0;
+		text-indent: -9999;
+		margin: 0 auto;
+	}
+
+	> .desc {
+		text-align: center;
+		margin: 40px;
+		color: #6f6f6f;
+		font-size: 18px;
+	}
+
+	> hr {
+
+	}
+
+	// > .container {
+	// 	// width: 900px;
+
+	// 	@media (min-width: $screen-sm-min) {
+	// 		width: $container-sm;
+	// 	}
+	// 	@media (min-width: $screen-md-min) {
+	// 		width: $container-md;
+	// 	}
+	// 	@media (min-width: $screen-lg-min) {
+	// 		width: $container-lg;
+	// 	}
+	// }
+}
+
+.home-block-default {
+
+}
+
+.home-whatwedo {
+	> h1 {
+		width: 333px;
+		height: 104px;
+		background: url(../img/whatwedo.png) no-repeat center;
+	}
+}
+
+.home-cases {
+
+	margin-bottom: 40px;
+
+	> img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	> .img-caption {
+		width: 120px;
+		margin: 0 auto;
+		text-align: center;
+		border-bottom: solid 2px #db5049;
+		> a {
+			display: block;
+			color: #000;
+			text-decoration: none;
+		}
+		> a.desc {
+			color: #dfdfdf;
+		}
+	}
+}
