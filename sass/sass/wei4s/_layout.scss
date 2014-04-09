@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 body {}
 
 
@@ -67,12 +69,15 @@ header {
 				padding: 0;
 				padding: 1px 3px;
 				background: transparent;
+				border-bottom: solid 2px transparent;
+				@include transition-duration(700ms);
 			}
 
 			> a:hover,
 			&.active > a {
-				border-bottom: solid 2px #fff;
+				border-bottom-color: #fff;
 				background: transparent;
+				@include transition(1s border-bottom-color);
 			}
 		}
 	}

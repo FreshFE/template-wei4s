@@ -7835,13 +7835,13 @@ button.close {
     display: none !important;
   }
 }
-/* line 4, ../sass/sass/wei4s/_layout.scss */
+/* line 6, ../sass/sass/wei4s/_layout.scss */
 header {
   position: relative;
   width: 100%;
   background: #db5049;
 }
-/* line 14, ../sass/sass/wei4s/_layout.scss */
+/* line 16, ../sass/sass/wei4s/_layout.scss */
 header > .background {
   display: block;
   position: absolute;
@@ -7852,19 +7852,19 @@ header > .background {
   background: #2e3649;
   z-index: 1;
 }
-/* line 25, ../sass/sass/wei4s/_layout.scss */
+/* line 27, ../sass/sass/wei4s/_layout.scss */
 header > .navbar {
   position: relative;
   border: none;
   margin-bottom: 0;
   z-index: 2;
 }
-/* line 31, ../sass/sass/wei4s/_layout.scss */
+/* line 33, ../sass/sass/wei4s/_layout.scss */
 header > .navbar > .container {
   height: 100px;
   background: #db5049;
 }
-/* line 37, ../sass/sass/wei4s/_layout.scss */
+/* line 39, ../sass/sass/wei4s/_layout.scss */
 header .navbar-brand {
   display: block;
   width: 212px;
@@ -7874,7 +7874,7 @@ header .navbar-brand {
   font-size: 0;
   line-height: 0;
 }
-/* line 47, ../sass/sass/wei4s/_layout.scss */
+/* line 49, ../sass/sass/wei4s/_layout.scss */
 header .navbar-solgan {
   display: block;
   float: left;
@@ -7884,25 +7884,34 @@ header .navbar-solgan {
   margin-left: 10px;
   margin-top: 40px;
 }
-/* line 57, ../sass/sass/wei4s/_layout.scss */
+/* line 59, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav {
   margin-top: 38px;
 }
-/* line 61, ../sass/sass/wei4s/_layout.scss */
+/* line 63, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li {
   margin-left: 40px;
 }
-/* line 65, ../sass/sass/wei4s/_layout.scss */
+/* line 67, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li > a {
   color: #fff;
   padding: 0;
   padding: 1px 3px;
   background: transparent;
+  border-bottom: solid 2px transparent;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
 }
-/* line 73, ../sass/sass/wei4s/_layout.scss */
+/* line 77, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
-  border-bottom: solid 2px #fff;
+  border-bottom-color: #fff;
   background: transparent;
+  -webkit-transition: 1s border-bottom-color;
+  -moz-transition: 1s border-bottom-color;
+  -o-transition: 1s border-bottom-color;
+  transition: 1s border-bottom-color;
 }
 
 /* line 4, ../sass/sass/wei4s/_carousel.scss */
@@ -7916,14 +7925,10 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   height: 4px;
   background: #fff;
   border: none;
-  -webkit-transition-delay: 800ms;
-  -moz-transition-delay: 800ms;
-  -o-transition-delay: 800ms;
-  transition-delay: 800ms;
-  -webkit-transition-duration: 800ms;
-  -moz-transition-duration: 800ms;
-  -o-transition-duration: 800ms;
-  transition-duration: 800ms;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
 }
 /* line 13, ../sass/sass/wei4s/_carousel.scss */
 .carousel-indicators .active {
@@ -7931,10 +7936,10 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   height: 4px;
   margin: 1px;
   background: #db5049;
-  -webkit-transition: 800ms background ease-in;
-  -moz-transition: 800ms background ease-in;
-  -o-transition: 800ms background ease-in;
-  transition: 800ms background ease-in;
+  -webkit-transition: 700ms background linear;
+  -moz-transition: 700ms background linear;
+  -o-transition: 700ms background linear;
+  transition: 700ms background linear;
 }
 
 /* line 22, ../sass/sass/wei4s/_carousel.scss */

@@ -7,15 +7,15 @@
         height: 4px;
         background: #fff;
         border: none;
-        @include transition-delay(800ms);
-        @include transition-duration(800ms);
+        // @include transition-delay(0);
+        @include transition-duration(700ms);
     }
     .active {
         width: 50px;
         height: 4px;
         margin: 1px;
         background: #db5049;
-        @include transition(800ms background ease-in);
+        @include transition(700ms background linear);
     }
 }
 
