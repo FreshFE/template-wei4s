@@ -8041,31 +8041,31 @@ footer .copyright {
 }
 
 /* line 86, ../sass/sass/wei4s/_home.scss */
-.home-cases {
+.home-feature {
   margin-bottom: 40px;
 }
 /* line 90, ../sass/sass/wei4s/_home.scss */
-.home-cases > img {
+.home-feature > img {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 /* line 95, ../sass/sass/wei4s/_home.scss */
-.home-cases > .img-caption {
+.home-feature > .img-caption {
   width: 120px;
   margin: 0 auto;
   text-align: center;
   border-bottom: solid 2px #db5049;
 }
 /* line 100, ../sass/sass/wei4s/_home.scss */
-.home-cases > .img-caption > a {
+.home-feature > .img-caption > a {
   display: block;
   color: #000;
   text-decoration: none;
   cursor: default;
 }
 /* line 106, ../sass/sass/wei4s/_home.scss */
-.home-cases > .img-caption > a.desc {
+.home-feature > .img-caption > a.desc {
   color: #dfdfdf;
 }
 
