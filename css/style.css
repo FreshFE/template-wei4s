@@ -7945,6 +7945,12 @@ footer .copyright {
   font-size: 10px;
 }
 
+/* line 1, ../sass/sass/wei4s/_utils.scss */
+.img-fullscreen {
+  display: block;
+  width: 100%;
+}
+
 /* line 3, ../sass/sass/wei4s/_carousel.scss */
 .carousel {
   margin-bottom: 40px;
@@ -8188,4 +8194,41 @@ footer .copyright {
   background: #eee;
   margin-top: 40px;
   border-color: #363f55;
+}
+
+/* line 5, ../sass/sass/wei4s/_product.scss */
+.product-block-title {
+  font-size: 22px;
+  color: #db5049;
+  text-align: center;
+  border-bottom: solid 1px #e5e5e5;
+  padding: 20px 0;
+}
+
+/* line 14, ../sass/sass/wei4s/_product.scss */
+.product-square > h3 {
+  color: #797979;
+  font-size: 18px;
+  font-weight: normal;
+}
+/* line 19, ../sass/sass/wei4s/_product.scss */
+.product-square > img {
+  display: block;
+  width: 100%;
+}
+
+/* line 25, ../sass/sass/wei4s/_product.scss */
+.product-feature {
+  margin-bottom: 20px;
+}
+/* line 29, ../sass/sass/wei4s/_product.scss */
+.product-feature > img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/* line 34, ../sass/sass/wei4s/_product.scss */
+.product-feature > .img-caption {
+  color: #797979;
+  text-align: center;
 }
