@@ -8283,3 +8283,67 @@ footer .copyright {
 .update-board > .glyphicon-ok {
   color: #3ec77b;
 }
+
+/* line 1, ../sass/sass/wei4s/_case.scss */
+.case-board {
+  margin-bottom: 40px;
+}
+/* line 9, ../sass/sass/wei4s/_case.scss */
+.case-board > .inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* line 14, ../sass/sass/wei4s/_case.scss */
+.case-board > .inner > img {
+  display: block;
+  width: 100%;
+}
+/* line 18, ../sass/sass/wei4s/_case.scss */
+.case-board > .inner > .img-caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #db5049;
+  color: #fff;
+  z-index: 1;
+  line-height: 100%;
+  text-align: center;
+  font-size: 24px;
+  cursor: default;
+}
+/* line 32, ../sass/sass/wei4s/_case.scss */
+.case-board > .inner > .img-caption > .glyphicon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12px;
+  margin-top: -14px;
+}
+/* line 42, ../sass/sass/wei4s/_case.scss */
+.case-board > .desc {
+  text-align: center;
+  color: #7b7b7b;
+  padding: 10px 0;
+}
+
+/* line 51, ../sass/sass/wei4s/_case.scss */
+.case-board > .inner > .img-caption {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+/* line 56, ../sass/sass/wei4s/_case.scss */
+.case-board > .inner:hover > .img-caption {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-transition: 300ms opacity linear;
+  -moz-transition: 300ms opacity linear;
+  -o-transition: 300ms opacity linear;
+  transition: 300ms opacity linear;
+}
