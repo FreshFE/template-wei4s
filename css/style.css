@@ -7839,14 +7839,18 @@ button.close {
 body.inversed {
   background: url(../img/bg_inversed.png) repeat;
 }
+/* line 8, ../sass/sass/wei4s/_layout.scss */
+body footer {
+  background: #fff;
+}
 
-/* line 10, ../sass/sass/wei4s/_layout.scss */
+/* line 14, ../sass/sass/wei4s/_layout.scss */
 header {
   position: relative;
   width: 100%;
   background: #db5049;
 }
-/* line 20, ../sass/sass/wei4s/_layout.scss */
+/* line 24, ../sass/sass/wei4s/_layout.scss */
 header > .background {
   display: block;
   position: absolute;
@@ -7857,19 +7861,19 @@ header > .background {
   background: #2e3649;
   z-index: 1;
 }
-/* line 31, ../sass/sass/wei4s/_layout.scss */
+/* line 35, ../sass/sass/wei4s/_layout.scss */
 header > .navbar {
   position: relative;
   border: none;
   margin-bottom: 0;
   z-index: 2;
 }
-/* line 37, ../sass/sass/wei4s/_layout.scss */
+/* line 41, ../sass/sass/wei4s/_layout.scss */
 header > .navbar > .container {
   height: 100px;
   background: #db5049;
 }
-/* line 43, ../sass/sass/wei4s/_layout.scss */
+/* line 47, ../sass/sass/wei4s/_layout.scss */
 header .navbar-brand {
   display: block;
   width: 212px;
@@ -7879,7 +7883,7 @@ header .navbar-brand {
   font-size: 0;
   line-height: 0;
 }
-/* line 53, ../sass/sass/wei4s/_layout.scss */
+/* line 57, ../sass/sass/wei4s/_layout.scss */
 header .navbar-solgan {
   display: block;
   float: left;
@@ -7889,15 +7893,15 @@ header .navbar-solgan {
   margin-left: 10px;
   margin-top: 40px;
 }
-/* line 63, ../sass/sass/wei4s/_layout.scss */
+/* line 67, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav {
   margin-top: 38px;
 }
-/* line 67, ../sass/sass/wei4s/_layout.scss */
+/* line 71, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li {
   margin-left: 40px;
 }
-/* line 71, ../sass/sass/wei4s/_layout.scss */
+/* line 75, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li > a {
   color: #fff;
   padding: 0;
@@ -7909,7 +7913,7 @@ header .navbar-nav > li > a {
   -o-transition-duration: 700ms;
   transition-duration: 700ms;
 }
-/* line 81, ../sass/sass/wei4s/_layout.scss */
+/* line 85, ../sass/sass/wei4s/_layout.scss */
 header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   border-bottom-color: #fff;
   background: transparent;
@@ -7919,30 +7923,31 @@ header .navbar-nav > li > a:hover, header .navbar-nav > li.active > a {
   transition: 1s border-bottom-color;
 }
 
-/* line 90, ../sass/sass/wei4s/_layout.scss */
+/* line 94, ../sass/sass/wei4s/_layout.scss */
 footer {
   padding-top: 60px;
 }
-/* line 94, ../sass/sass/wei4s/_layout.scss */
+/* line 98, ../sass/sass/wei4s/_layout.scss */
 footer > .container {
   max-width: 900px;
 }
-/* line 98, ../sass/sass/wei4s/_layout.scss */
+/* line 102, ../sass/sass/wei4s/_layout.scss */
 footer .footer-text {
   font-size: 16px;
   line-height: 100px;
 }
-/* line 102, ../sass/sass/wei4s/_layout.scss */
+/* line 106, ../sass/sass/wei4s/_layout.scss */
 footer .footer-text strong {
   color: #db5049;
   font-size: 1.5em;
 }
-/* line 108, ../sass/sass/wei4s/_layout.scss */
+/* line 112, ../sass/sass/wei4s/_layout.scss */
 footer .copyright {
   padding: 30px;
   color: #9e9d9d;
   text-align: center;
   font-size: 10px;
+  margin: 0;
 }
 
 /* line 1, ../sass/sass/wei4s/_utils.scss */
@@ -8231,4 +8236,50 @@ footer .copyright {
 .product-feature > .img-caption {
   color: #797979;
   text-align: center;
+}
+
+/* line 6, ../sass/sass/wei4s/_update.scss */
+.update-block-title {
+  color: #b8b8b8;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+/* line 12, ../sass/sass/wei4s/_update.scss */
+.update-board {
+  background: #fff;
+  padding: 30px 30px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 19, ../sass/sass/wei4s/_update.scss */
+.update-board > .title,
+.update-board > em {
+  color: #666;
+  line-height: 35px;
+}
+/* line 23, ../sass/sass/wei4s/_update.scss */
+.update-board > .title {
+  float: left;
+}
+/* line 26, ../sass/sass/wei4s/_update.scss */
+.update-board > em {
+  float: right;
+  font-style: normal;
+  margin-right: 20px;
+}
+/* line 31, ../sass/sass/wei4s/_update.scss */
+.update-board > .glyphicon {
+  float: right;
+  color: #aaa;
+  font-size: 30px;
+  vertical-align: middle;
+}
+/* line 37, ../sass/sass/wei4s/_update.scss */
+.update-board > .glyphicon-ok {
+  color: #3ec77b;
 }
