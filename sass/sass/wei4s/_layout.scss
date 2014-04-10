@@ -4,6 +4,10 @@ body {
 	&.inversed {
 		background: url(../img/bg_inversed.png) repeat;
 	}
+
+	footer {
+		background: #fff;
+	}
 }
 
 
@@ -110,5 +114,6 @@ footer {
 		color: #9e9d9d;
 		text-align: center;
 		font-size: 10px;
+		margin: 0;
 	}
 }
