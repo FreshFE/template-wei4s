@@ -1,7 +1,9 @@
 @import "compass/css3";
 
 body {
-	min-height: 2000px;
+	&.inversed {
+		background: url(../img/bg_inversed.png) repeat;
+	}
 }
 
 
