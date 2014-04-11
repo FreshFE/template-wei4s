@@ -1,4 +1,14 @@
+@import "../bootstrap-sass/bootstrap/variables";
 @import "compass/css3";
+
+body.theme-help {
+	background: #333 url(../img/bg_help.png) no-repeat;
+
+	@media (max-width: $screen-sm-min) {
+		background: transparent;
+		background: #333;
+	}
+}
 
 .help-block {
 	margin: 40px 0;

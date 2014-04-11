@@ -8348,12 +8348,24 @@ footer .copyright {
   transition: 300ms opacity linear;
 }
 
-/* line 3, ../sass/sass/wei4s/_help.scss */
+/* line 4, ../sass/sass/wei4s/_help.scss */
+body.theme-help {
+  background: #333333 url(../img/bg_help.png) no-repeat;
+}
+@media (max-width: 768px) {
+  /* line 4, ../sass/sass/wei4s/_help.scss */
+  body.theme-help {
+    background: transparent;
+    background: #333;
+  }
+}
+
+/* line 13, ../sass/sass/wei4s/_help.scss */
 .help-block {
   margin: 40px 0;
 }
 
-/* line 7, ../sass/sass/wei4s/_help.scss */
+/* line 17, ../sass/sass/wei4s/_help.scss */
 .help-board {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
@@ -8365,27 +8377,27 @@ footer .copyright {
   border-radius: 2px;
 }
 
-/* line 14, ../sass/sass/wei4s/_help.scss */
+/* line 24, ../sass/sass/wei4s/_help.scss */
 .help-board-title {
   color: #2e3649;
   margin-top: 0;
 }
 
-/* line 19, ../sass/sass/wei4s/_help.scss */
+/* line 29, ../sass/sass/wei4s/_help.scss */
 .help-board-desc {
   color: #6b6868;
   margin-bottom: 20px;
 }
 
-/* line 24, ../sass/sass/wei4s/_help.scss */
+/* line 34, ../sass/sass/wei4s/_help.scss */
 .help-board-nav {
   margin-left: -10px;
 }
-/* line 29, ../sass/sass/wei4s/_help.scss */
+/* line 39, ../sass/sass/wei4s/_help.scss */
 .help-board-nav > li > a {
   padding: 20px 10px;
 }
-/* line 32, ../sass/sass/wei4s/_help.scss */
+/* line 42, ../sass/sass/wei4s/_help.scss */
 .help-board-nav > li > a > h2 {
   margin: 0;
   padding: 0;
@@ -8393,16 +8405,16 @@ footer .copyright {
   margin-bottom: 10px;
   color: #2e3649;
 }
-/* line 39, ../sass/sass/wei4s/_help.scss */
+/* line 49, ../sass/sass/wei4s/_help.scss */
 .help-board-nav > li > a > h2 > .glyphicon {
   color: #db5049;
 }
-/* line 44, ../sass/sass/wei4s/_help.scss */
+/* line 54, ../sass/sass/wei4s/_help.scss */
 .help-board-nav > li > a > p {
   color: #6b6868;
   margin: 0;
 }
-/* line 49, ../sass/sass/wei4s/_help.scss */
+/* line 59, ../sass/sass/wei4s/_help.scss */
 .help-board-nav > li > a:hover {
   background: #d5d5d6;
   -webkit-border-radius: 2px;
@@ -8412,12 +8424,12 @@ footer .copyright {
   border-radius: 2px;
 }
 
-/* line 58, ../sass/sass/wei4s/_help.scss */
+/* line 68, ../sass/sass/wei4s/_help.scss */
 .help-board-contact strong {
   font-size: 1.5em;
   color: #2e3649;
 }
-/* line 63, ../sass/sass/wei4s/_help.scss */
+/* line 73, ../sass/sass/wei4s/_help.scss */
 .help-board-contact img {
   max-width: 60%;
 }
